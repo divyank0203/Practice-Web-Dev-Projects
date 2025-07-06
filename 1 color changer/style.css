@@ -1,0 +1,30 @@
+.announce{
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: solid 3px black;
+}
+#white{
+    background-color: white;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+span{
+    display: block;
+}
+.box:hover{
+    cursor: pointer;
+}
