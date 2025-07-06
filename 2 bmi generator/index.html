@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title>BMI Generator</title>
+</head>
+<body>
+    <div class="tit" align="center"><h1>B.M.I. CALCULATOR</h1></div>
+
+      <form align="center">
+        <p><label>Height in CM: </label><input type="text" id="height" /></p>
+        <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
+        <button>Calculate</button>
+        <div id="results" align="center"></div>
+      </form>
+    <div class="info"><h3 class="res" align="center">BMI Table</h3>
+        <table class="data" align="center">
+            <tr class="heading">
+                <td class="top" align="center">Classification</td>
+                <td class="topbmi" align="center">BMI</td>
+            </tr>
+            <tr>
+                <td>Severe Thinness</td>
+                <td align="center">&lt 16</td>
+            </tr>
+            <tr>
+                <td>
+                    Moderate Thinness
+                </td>
+                <td align="center">16  - 18.5</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td align="center">18.5 - 25</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td align="center">25 - 30</td>
+            </tr>
+            <tr>
+                <td>Obese</td>
+                <td align="center">&gt 30</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
